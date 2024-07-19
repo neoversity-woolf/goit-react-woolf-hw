@@ -1,0 +1,38 @@
+.table {
+  margin: 0 auto;
+  border-collapse: collapse;
+
+  thead {
+    color: rgb(var(--cl-white));
+    text-align: center;
+    background-color: rgb(var(--cl-primary));
+
+    th {
+      padding: 1rem 2rem;
+      border: 1px solid rgb(var(--cl-primary));
+    }
+  }
+
+  tbody {
+    color: rgb(var(--cl-black));
+
+    tr {
+      background-color: rgb(var(--cl-white));
+    }
+
+    tr:nth-child(even) {
+      background-color: rgb(var(--cl-primary) / 10%);
+    }
+
+    td {
+      min-width: 12rem;
+      padding: 0.5rem 2rem;
+      text-transform: capitalize;
+      border: 1px solid rgb(var(--cl-primary));
+    }
+
+    td:not(:first-child) {
+      text-align: center;
+    }
+  }
+}
