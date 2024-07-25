@@ -1,5 +1,5 @@
-import Avatar from './Avatar';
-import Bio from './Bio';
+import Avatar from '../Avatar/Avatar';
+import Bio from '../Bio/Bio';
 import css from './ProfileMeta.module.css';
 
 const ProfileMeta = ({
